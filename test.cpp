@@ -4,7 +4,8 @@
 #include<stdlib.h>
 #include<time.h>
 using namespace std;
-//¼ÆËã×Ö·û´®×ª»»³ÉÕûÊı£¬×Ö·û´®³¤¶È²»³¬¹ı9
+//test
+//è®¡ç®—å­—ç¬¦ä¸²è½¬æ¢æˆæ•´æ•°ï¼Œå­—ç¬¦ä¸²é•¿åº¦ä¸è¶…è¿‡9
 int trans(char c[], int len)
 {
 	int value = 0, bitval;
@@ -19,7 +20,7 @@ int trans(char c[], int len)
 	cout << "error input!" << endl;
 	return 0;
 }
-//fibonacciÊıÁĞ
+//fibonacciæ•°åˆ—
 int fib(int n)
 {
 	if (n == 0) return 0;
@@ -33,7 +34,7 @@ int fib(int n)
 		i++;
 	}
 	return b;
-	//µİ¹é·½·¨£¬Õ»Òç³ö
+	//é€’å½’æ–¹æ³•ï¼Œæ ˆæº¢å‡º
 	//return fib(n - 1) + fib(n - 2);
 }
 union 
@@ -79,7 +80,7 @@ int Fun(int &a)
 	return a++;
 }
 int main(){
-	//Êä³ö×Ö·û´®
+	//è¾“å‡ºå­—ç¬¦ä¸²
 	/*char c[10];
 	cin >> c;
 	int len = strlen(c);
@@ -90,7 +91,7 @@ int main(){
 		return 0;
 	}	
 	cout << trans(c, len) << endl;*/
-    //Êä³öì³²¨ÄÇÆõÊıÁĞ
+    //è¾“å‡ºæ–æ³¢é‚£å¥‘æ•°åˆ—
 	//cout << fib(100000) << endl;
     /*a.x[0] = 600;
 	a.x[1] = 0;
